@@ -139,7 +139,7 @@ Estes ensaios são muito importantes para entendimento de possíveis problemas q
 
 Em relação a Classificação, observamos uma tendência de queda nas pontuações de precisão ao passar dos dados de treinamento para os dados de teste. Isso é esperado, já que os modelos são treinados para maximizar o desempenho nos dados de treinamento e podem não se ajustar tão bem aos dados de teste. Os algoritmos baseados em árvore apresentaram forte tendência ao overfitting nos dados de treino, mas também tiveram ótimo desempenho na validação e teste, o que sugere que eles generalizam bem para novos dados, apesar do potencial overfitting nos dados de treinamento. O KNN pode ser mais suscetível a overfitting (devido à queda brusca no desempnho de treino pra validação e teste) enquanto o Logistic Regressor parece ter uma melhor capacidade de generalização para novos dados.
 
-Para os algoritmos de Cluster, akbos tiveram performances muito próximas, porém valor baixo, proóximo de 0, para a Silhouette Score. Um valor próximo de 0 indica que os exemplos estão próximos da fronteira de decisão entre dois clusters ou que podem ser mal classificados. Então, pode-se concluir que nenhum destes algoritmos foram capazes de modelar o problema com os dados utilizados. 
+Para os algoritmos de Cluster, ambos tiveram performances muito próximas, porém valor baixo, proóximo de 0, para a Silhouette Score. Um valor próximo de 0 indica que os exemplos estão próximos da fronteira de decisão entre dois clusters ou que podem ser mal classificados. Então, pode-se concluir que nenhum destes algoritmos foram capazes de modelar o problema com os dados utilizados. 
 
 # 6. Lições Aprendidas e Próximos Passos
 
